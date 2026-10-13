@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8fcfcf0-9be1-44e3-9ec4-19d30dbf85f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/job_tracker.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b8fcfcf0-9be1-44e3-9ec4-19d30dbf85f6" name="Changes" comment="+ Sukurtas Django projektas su appsu job_tracker">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "LinasJur"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/LinasJur/job_tracker.git",
+    "accountId": "a00b3477-9dd1-432d-b660-f039f803d221"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -37,60 +44,60 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0000000000067322" />
-      <entry key="S30" value="1.0006030901295697" />
-      <entry key="S60" value="1.067019637070558" />
-      <entry key="M2" value="1.7256978535997207" />
-      <entry key="M5" value="4.056586518070121" />
-      <entry key="M10" value="5.943241479300458" />
-      <entry key="M15" value="6.803246619477209" />
-      <entry key="M30" value="7.813398438631844" />
-      <entry key="H1" value="8.382827381767882" />
-      <entry key="H2" value="8.685202377924863" />
-      <entry key="H4" value="8.841016852992556" />
-      <entry key="D1" value="8.973280035682949" />
-      <entry key="W1" value="8.99617737066128" />
+      <entry key="MS500" value="1.0001682485457282" />
+      <entry key="S2" value="1.229254026473897" />
+      <entry key="S5" value="2.866851035324313" />
+      <entry key="S10" value="5.202173533677115" />
+      <entry key="S30" value="8.446150498915198" />
+      <entry key="S60" value="9.64593012444543" />
+      <entry key="M2" value="10.539501527277274" />
+      <entry key="M5" value="12.595968962124708" />
+      <entry key="M10" value="14.908042334843383" />
+      <entry key="M15" value="16.17456360253038" />
+      <entry key="M30" value="17.829469878450716" />
+      <entry key="H1" value="18.840824981450506" />
+      <entry key="H2" value="19.400599330206934" />
+      <entry key="H4" value="19.695168751562125" />
+      <entry key="D1" value="19.948466564848484" />
+      <entry key="W1" value="19.99262003950789" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="3.808956490954809E-227" />
-      <entry key="S2" value="3.2242927807502597E-57" />
-      <entry key="S5" value="3.695036797799398E-23" />
-      <entry key="S10" value="8.889836384109389E-12" />
-      <entry key="S30" value="4.356359502714714E-4" />
-      <entry key="S60" value="0.04037605780179972" />
-      <entry key="M2" value="0.39832078942884536" />
-      <entry key="M5" value="1.5862982930842855" />
-      <entry key="M10" value="2.5180488163791748" />
-      <entry key="M15" value="2.9378359762542368" />
-      <entry key="M30" value="3.427884274633817" />
-      <entry key="H1" value="3.7028717130401256" />
-      <entry key="H2" value="3.8485596940287414" />
-      <entry key="H4" value="3.923546769489131" />
-      <entry key="D1" value="3.987154764794074" />
-      <entry key="W1" value="3.998162427231677" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="5.297778395957405E-107" />
+      <entry key="S5" value="4.506947452880184E-43" />
+      <entry key="S10" value="9.818058858822946E-22" />
+      <entry key="S30" value="2.0901028940775227E-7" />
+      <entry key="S60" value="8.843942100794931E-4" />
+      <entry key="M2" value="0.05895137818229647" />
+      <entry key="M5" value="0.7387359810104093" />
+      <entry key="M10" value="1.7183686589564195" />
+      <entry key="M15" value="2.2771711690978305" />
+      <entry key="M30" value="3.0179373340420823" />
+      <entry key="H1" value="3.4744070614074887" />
+      <entry key="H2" value="3.727942830525617" />
+      <entry key="H4" value="3.861573825559411" />
+      <entry key="D1" value="3.9765887378193785" />
+      <entry key="W1" value="3.9966471057408643" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.0033075988764161217" />
-      <entry key="MS500" value="0.3190821922072382" />
-      <entry key="S2" value="0.7515807390327813" />
-      <entry key="S5" value="0.8920521755387831" />
-      <entry key="S10" value="0.9444851378219621" />
-      <entry key="S30" value="0.9821607286870784" />
-      <entry key="S60" value="1.0969223347308494" />
-      <entry key="M2" value="2.1140883231756553" />
-      <entry key="M5" value="5.6324696938741985" />
-      <entry key="M10" value="8.453511675038747" />
-      <entry key="M15" value="9.735119534294435" />
-      <entry key="M30" value="11.237845898774614" />
-      <entry key="H1" value="12.083852619055396" />
-      <entry key="H2" value="12.53280486486058" />
-      <entry key="H4" value="12.764076271103164" />
-      <entry key="D1" value="12.9603523380258" />
-      <entry key="W1" value="12.99432798694959" />
+      <entry key="MS100" value="1.039165009831218E-8" />
+      <entry key="MS500" value="0.02547946408464642" />
+      <entry key="S2" value="0.6276767457261038" />
+      <entry key="S5" value="2.5577807964752366" />
+      <entry key="S10" value="5.032640141278736" />
+      <entry key="S30" value="8.385747045241114" />
+      <entry key="S60" value="9.61585579247047" />
+      <entry key="M2" value="10.581481377914402" />
+      <entry key="M5" value="13.323620411722489" />
+      <entry key="M10" value="16.617979954406795" />
+      <entry key="M15" value="18.44502960518157" />
+      <entry key="M30" value="20.84333924095379" />
+      <entry key="H1" value="22.312978250106116" />
+      <entry key="H2" value="23.127354292263334" />
+      <entry key="H4" value="23.556132583186486" />
+      <entry key="D1" value="23.924951333987238" />
+      <entry key="W1" value="23.9892522352117" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -170,9 +177,22 @@
       <option name="presentableId" value="Default" />
       <updated>1791896023860</updated>
     </task>
+    <task id="LOCAL-00001" summary="+ Sukurtas Django projektas su appsu job_tracker">
+      <option name="closed" value="true" />
+      <created>1791897817609</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1791897817609</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="+ Sukurtas Django projektas su appsu job_tracker" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ Sukurtas Django projektas su appsu job_tracker" />
   </component>
 </project>
