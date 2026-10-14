@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8fcfcf0-9be1-44e3-9ec4-19d30dbf85f6" name="Changes" comment="+ Sukurtas Django projektas su appsu job_tracker">
+    <list default="true" id="b8fcfcf0-9be1-44e3-9ec4-19d30dbf85f6" name="Changes" comment="+">
+      <change beforePath="$PROJECT_DIR$/.idea/job_tracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/job_tracker.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/tracker/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/tracker/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/tracker/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/tracker/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="6" />
+    <option name="cachedIndexableFilesCount" value="25" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,112 +29,118 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "LinasJur"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LinasJur&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/LinasJur/job_tracker.git",
-    "accountId": "a00b3477-9dd1-432d-b660-f039f803d221"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LinasJur/job_tracker.git&quot;,
+    &quot;accountId&quot;: &quot;a00b3477-9dd1-432d-b660-f039f803d221&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0001682485457282" />
-      <entry key="S2" value="1.229254026473897" />
-      <entry key="S5" value="2.866851035324313" />
-      <entry key="S10" value="5.202173533677115" />
-      <entry key="S30" value="8.446150498915198" />
-      <entry key="S60" value="9.64593012444543" />
-      <entry key="M2" value="10.539501527277274" />
-      <entry key="M5" value="12.595968962124708" />
-      <entry key="M10" value="14.908042334843383" />
-      <entry key="M15" value="16.17456360253038" />
-      <entry key="M30" value="17.829469878450716" />
-      <entry key="H1" value="18.840824981450506" />
-      <entry key="H2" value="19.400599330206934" />
-      <entry key="H4" value="19.695168751562125" />
-      <entry key="D1" value="19.948466564848484" />
-      <entry key="W1" value="19.99262003950789" />
+      <entry key="MS100" value="1.0000130101759608" />
+      <entry key="MS500" value="1.105403888781264" />
+      <entry key="S2" value="1.5697891282592806" />
+      <entry key="S5" value="1.7985197523533745" />
+      <entry key="S10" value="1.893599324368084" />
+      <entry key="S30" value="1.9678142938152132" />
+      <entry key="S60" value="2.417813970793709" />
+      <entry key="M2" value="7.000555825381661" />
+      <entry key="M5" value="28.782162458527434" />
+      <entry key="M10" value="51.824276810469094" />
+      <entry key="M15" value="63.94130895229966" />
+      <entry key="M30" value="81.11095843356729" />
+      <entry key="H1" value="96.28371280030639" />
+      <entry key="H2" value="109.70096461604241" />
+      <entry key="H4" value="119.59708197649715" />
+      <entry key="D1" value="130.4588836012149" />
+      <entry key="W1" value="132.62844346727422" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="5.297778395957405E-107" />
-      <entry key="S5" value="4.506947452880184E-43" />
-      <entry key="S10" value="9.818058858822946E-22" />
-      <entry key="S30" value="2.0901028940775227E-7" />
-      <entry key="S60" value="8.843942100794931E-4" />
-      <entry key="M2" value="0.05895137818229647" />
-      <entry key="M5" value="0.7387359810104093" />
-      <entry key="M10" value="1.7183686589564195" />
-      <entry key="M15" value="2.2771711690978305" />
-      <entry key="M30" value="3.0179373340420823" />
-      <entry key="H1" value="3.4744070614074887" />
-      <entry key="H2" value="3.727942830525617" />
-      <entry key="H4" value="3.861573825559411" />
-      <entry key="D1" value="3.9765887378193785" />
-      <entry key="W1" value="3.9966471057408643" />
+      <entry key="S2" value="2.156937343341358E-101" />
+      <entry key="S5" value="8.615382814595008E-41" />
+      <entry key="S10" value="1.5339590402044895E-20" />
+      <entry key="S30" value="5.108462582817994E-7" />
+      <entry key="S60" value="0.0012360846274581795" />
+      <entry key="M2" value="0.06087219094188864" />
+      <entry key="M5" value="0.6309578900927808" />
+      <entry key="M10" value="1.3758541321134907" />
+      <entry key="M15" value="1.7864286577039585" />
+      <entry key="M30" value="2.4108969272401035" />
+      <entry key="H1" value="3.2587213259572794" />
+      <entry key="H2" value="4.391491114831953" />
+      <entry key="H4" value="5.418229825704589" />
+      <entry key="D1" value="6.685896236891362" />
+      <entry key="W1" value="6.9536981011517165" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.039165009831218E-8" />
-      <entry key="MS500" value="0.02547946408464642" />
-      <entry key="S2" value="0.6276767457261038" />
-      <entry key="S5" value="2.5577807964752366" />
-      <entry key="S10" value="5.032640141278736" />
-      <entry key="S30" value="8.385747045241114" />
-      <entry key="S60" value="9.61585579247047" />
-      <entry key="M2" value="10.581481377914402" />
-      <entry key="M5" value="13.323620411722489" />
-      <entry key="M10" value="16.617979954406795" />
-      <entry key="M15" value="18.44502960518157" />
-      <entry key="M30" value="20.84333924095379" />
-      <entry key="H1" value="22.312978250106116" />
-      <entry key="H2" value="23.127354292263334" />
-      <entry key="H4" value="23.556132583186486" />
-      <entry key="D1" value="23.924951333987238" />
-      <entry key="W1" value="23.9892522352117" />
+      <entry key="MS100" value="0.8766057428322568" />
+      <entry key="MS500" value="1.0032830637580044" />
+      <entry key="S2" value="1.407091756004978" />
+      <entry key="S5" value="1.6998840512494746" />
+      <entry key="S10" value="1.836845294594984" />
+      <entry key="S30" value="1.9470251157985106" />
+      <entry key="S60" value="2.407870144631054" />
+      <entry key="M2" value="7.051123042595426" />
+      <entry key="M5" value="29.397462110957495" />
+      <entry key="M10" value="53.185758399806076" />
+      <entry key="M15" value="65.71579903740697" />
+      <entry key="M30" value="83.51401058344047" />
+      <entry key="H1" value="99.53740373271395" />
+      <entry key="H2" value="114.08933649075631" />
+      <entry key="H4" value="125.01350673573913" />
+      <entry key="D1" value="137.1444316298494" />
+      <entry key="W1" value="139.58209043847663" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3KdmsDvEPwe8nRsSYdF1T1CtoDJ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Tracker App.executor": "Run",
-    "Python.manage.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Tracker App.executor&quot;: &quot;Run&quot;,
+    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/relak/PycharmProjects/job_tracker/mysite/tracker&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\relak\PycharmProjects\job_tracker\mysite\tracker" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tracker App" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="job_tracker" />
@@ -185,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791897817609</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="+ pasiruošimo darbai">
+      <option name="closed" value="true" />
+      <created>1791900937803</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1791900937803</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +211,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="+ Sukurtas Django projektas su appsu job_tracker" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ Sukurtas Django projektas su appsu job_tracker" />
+    <MESSAGE value="+ pasiruošimo darbai" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ pasiruošimo darbai" />
   </component>
 </project>
